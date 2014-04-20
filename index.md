@@ -1,46 +1,32 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 寂寞先生
+tagline: 这，是一个寂寞的世界……
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+##泡沫
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+一个人学习的话首先就是因为没有导师指引可能缺乏方向感，另一个就是没有人一起学习可能缺乏动力，再就是不容易通过与身边人交流来进步。
+不得不承认这些困难是客观存在的，但是也完全有改善的方法。关于指导的问题，有很多教程、博客都可以通过网络得到，一定程度上可以代替导师的作用。至于交流的问题：有一些过来人会建议说不要在初学阶段上网和人讨论，我个人看来这和与身边人交流的情形是类似的。初学阶段实在是讨论不出什么东西，还不如自己多练练。
+上面这些说的是入门的问题。接下来是成长的问题：如果说业余学和科班的有什么最大的不同，那可能就是合作的机会比较少，只能局限于个人的项目。但是现在这个问题一定程度上已经解决了：很多或大或小的项目有在网络上公开它的源代码，你可以自己试着修改，站在巨人的身上起步；也有一些项目本身就比较开放，随时欢迎其他人参与进去共同开发。如果你觉得混进这些小圈子也比较难开头的话，还有GitHub这样的网站，你可以对其中一些项目做一些修改，如果你觉得好可以试图和其他人的工作合并起来。
 
-## Update Author Attributes
+上面这些我是想说出于兴趣自学的天花板的问题。我的观点是，没有什么天花板真的值得担心。
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+当然，即使不必担心天花板，成长速度也是一个问题。成长的情况实在是受太多要素影响，其中最容易衡量的应该是投入的时间吧。这个方面我也不知道该怎么说，刚好@Liutos 也提到这个问题，我只能说是投入的越多越好。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+最后我看了一下，我好像始终没提C语言本身……C语言首先在当下完全不用担心过时的问题。C++的簇拥会说，C++在注重开发效率的今天，在操作系统，数据库等领域仍然在发挥重要的作用。这个说法恰好对C语言也适用。
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+总之，能学到什么高度，就完全看毅力和投入的精力了~
 
     $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
+
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
