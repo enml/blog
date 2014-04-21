@@ -1,5 +1,13 @@
 /* Custom container */
-.container-narrow { 
+
+.navbar .navbar-inner{ 
+  background-color: rgba(0,157,148,0.9);
+  }
+
+  .content{ margin-top: 80px;}
+
+.container-narrow {
+
   margin: 0 auto;
   max-width: 700px; }
 
@@ -10,11 +18,12 @@
   float: right; }
 
 /* posts index */
-.post > h3.title {
+
+.post > h3.title { 
   position: relative;
   padding-top: 10px; }
 
-.post > h3.title span.date {
+.post > h3.title span.date {  
   position: absolute;
   right: 0;
   font-size: 0.9em; }
@@ -24,7 +33,7 @@
   text-align: left; }
 
 /* post-full*/
-.post-full .date {
+.post-full .date { 
   margin-bottom: 20px;
   font-weight: bold; }
 
@@ -40,7 +49,7 @@
 .tag_box li i {
   opacity: 0.9; }
 
-.tag_box.inline li {
+.tag_box.inline li { 
   float: left; }
 
 .tag_box a {
