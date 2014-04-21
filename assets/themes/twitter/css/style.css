@@ -1,15 +1,38 @@
 /* Custom container */
+body{ background: url("/assets/themes/twitter/img/body_bg.png") repeat;}
 
 .navbar .navbar-inner{ 
   background-color: rgba(0,157,148,0.9);
   }
 
-  .content{ margin-top: 80px;}
+
+.nav-narrow{  
+  margin: 0 auto;
+  max-width: 800px;}
+
+.row-fluid.post-full .span12 .date {
+  float: left;
+  margin-left:-70px; 
+ 
+  width:80px; 
+  height:48px; 
+
+  color: #fff;
+  text-align: right; 
+  background: url("/assets/themes/twitter/img/bg.png")  left top no-repeat;
+}
+
+.card { 
+  max-width: 800px;
+
+  padding: 20px 40px;
+  
+  background-color: #fff; 
+  }
 
 .container-narrow {
-
-  margin: 0 auto;
-  max-width: 700px; }
+  margin: 100px auto;
+  max-width: 800px; }
 
 .container-narrow > hr { 
   margin: 30px 0; }

@@ -35,7 +35,7 @@
   <body>
     <div class="navbar">
       <div class="navbar-inner">
-       <div class="container-narrow">
+       <div class="nav-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
@@ -52,7 +52,7 @@
         {{ content }}
       </div>
       <hr>
-      <footer>
+      <footer class="card">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
