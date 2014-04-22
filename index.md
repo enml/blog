@@ -6,10 +6,10 @@ tagline: 这，是一个寂寞的世界……
 {% include JB/setup %}
 ---
 
-![thinking](http://pic3.nipic.com/20090615/903642_161527005_2.jpg)
+![thinking](/assets/themes/twitter/img/09140805_ibes.jpg)
 
 
-那是我吗？不，
+人，只是一根会思考的芦苇……
 
 
 
