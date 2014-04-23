@@ -19,6 +19,6 @@ tags: [jekyll blog]
 
 * @media通过检测min-width和max-width来进行响应式布局，但要编写全局css时要注意，否则很容易响应不了。
 
-* <hr> 添加个具有margin的hr，然后在使用card style时可以通过添加hr来达到分割的效果。另一种方式是直接为card添加一个margin-top。
+* \<hr> 添加个具有margin的hr，然后在使用card style时可以通过添加hr来达到分割的效果。另一种方式是直接为card添加一个margin-top。
 
 * 当我使用中文的categories时，由于permalink中包含categories，导致链接失败。所以只要到_config.yml中修改permalink即可。
