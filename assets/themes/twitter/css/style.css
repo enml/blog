@@ -1,5 +1,5 @@
 /* Custom container */
-body{ background: url("{{site.url}}/assets/themes/twitter/img/body_bg.png") repeat;}
+body{ background: url("enml.github.io/blog/assets/themes/twitter/img/body_bg.png") repeat;}
 
 .navbar .navbar-inner{ 
   background-color: rgba(0,157,148,0.9);
