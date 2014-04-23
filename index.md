@@ -11,7 +11,14 @@ tagline: 这，是一个寂寞的世界……
 {% for post in site.posts %}
 <div class = "card">
 	<div class = "clearfix">
-		<span  class = "date_label">{{ post.date | date:"%m-%d %Y" }}</span> 
+		<div  class = "date_label">
+			<div class="day_month">
+      			{{ post.date | date:"%m/%d" }}
+      			</div>
+      			<div class="year">
+      			{{ post.date | date:"%Y" }}
+      			</div>
+      		</div> 
 	</div>
 		{{ post.content  | | split:'<!--break-->' | first }}
 	<div class = "read_more">
@@ -21,6 +28,4 @@ tagline: 这，是一个寂寞的世界……
 </div>
 <hr>
 {% endfor %}
-
-
 
