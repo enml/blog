@@ -1,5 +1,6 @@
 ---
 layout: post
+title: GitHub基础入门
 category : 技术分享
 tagline: "Supporting tagline"
 tags : jekyll, github

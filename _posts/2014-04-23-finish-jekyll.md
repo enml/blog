@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "finish jekyll"
+title: "对5天来关于jekyll的心得"
 description: ""
 category: 技术分享
 tags: [jekyll blog]

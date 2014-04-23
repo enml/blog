@@ -1,5 +1,5 @@
 
-body{ background: url("/assets/themes/twitter/img/body_bg.png") repeat;}
+body{ background: url("/img/body_bg.png") repeat;}
 
 /*navbar bgcolor -- float*/
 .navbar .navbar-inner{ 
@@ -29,7 +29,7 @@ body{ background: url("/assets/themes/twitter/img/body_bg.png") repeat;}
 
   color: #fff;
   text-align: right; 
-  background: url("/assets/themes/twitter/img/bg.png")  left top no-repeat;
+  background: url("/img/bg.png")  left top no-repeat;
 }
 
 .card { 
