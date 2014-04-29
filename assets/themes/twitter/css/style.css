@@ -2,7 +2,7 @@ body{ background: url("img/body_bg.png") repeat;}
 
 /*navbar bgcolor -- float*/
 .navbar .navbar-inner{ 
-  background-color: rgba(0,157,148,0.9);
+  background-color: rgba(0,173,207,0.9);
   }
 
 .navbar .nav {  
@@ -87,7 +87,7 @@ body{ background: url("img/body_bg.png") repeat;}
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
-  background: rgb(0,157,140);
+  background: rgb(0,173,207);
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
