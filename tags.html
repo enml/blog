@@ -10,15 +10,16 @@ group: navigation
   {% assign tags_list = site.tags %}  
   {% include JB/tags_list %}
 </ul>
-<hr>
 
-{% for tag in site.tags %} 
 <div class = "card">
+{% for tag in site.tags %} 
+
   <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
   <ul>
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
   </ul>
-</div>
-<hr>
+
+
 {% endfor %}
+</div>
