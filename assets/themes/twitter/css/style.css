@@ -1,8 +1,8 @@
 body{ background: url("img/body_bg.png") repeat;}
-
+ 
 /*navbar bgcolor -- float*/
 .navbar .navbar-inner{ 
-  background-color: rgba(0,173,207,0.9);
+  background-color: rgba(0,173,207,1);
   }
 
 .navbar .nav {  
@@ -35,6 +35,7 @@ body{ background: url("img/body_bg.png") repeat;}
 
 .card { 
   max-width: 800px;
+  margin-top: 40px;
   
   background-color: #fff; 
   }

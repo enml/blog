@@ -5,7 +5,7 @@ tagline: 这，是一个寂寞的世界……
 ---
 {% include JB/setup %}
 # 人，只是一根会思考的芦苇……
----
+
 
 
 {% for post in site.posts %}
@@ -26,6 +26,6 @@ tagline: 这，是一个寂寞的世界……
 	</div>
 	
 </div>
-<hr>
+
 {% endfor %}
 
