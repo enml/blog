@@ -20,19 +20,6 @@ body{ background: url("img/body_bg.png") repeat;}
   max-width: 800px; 
   }
 
-.date_label {
-  float: left;
- 
-  width:80px; 
-  height:48px; 
-
-  color: #fff;
-  text-align: right; 
-  background: url("img/date_label_bg.png")  left top no-repeat;
-}
-.day_month{ font-size: 1.3em;}
-.year{ font-size: 0.1em;}
-
 .card { 
   max-width: 800px;
   margin-top: 40px;
