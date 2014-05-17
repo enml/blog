@@ -88,3 +88,15 @@ body{ background: url("img/body_bg.png") repeat;}
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+
+.hat_title{
+    margin: -20px -40px 20px;
+    padding: 10px;
+/*    background-color: rgb(229, 229, 229);*/
+    color: rgb(0,173,207);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid #eee;
+}

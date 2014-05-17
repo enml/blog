@@ -780,7 +780,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .hidden-desktop{display:none !important;}
 .visible-desktop{display:inherit !important;}
 .container-narrow { margin: 100px auto; max-width: 800px; }
-.card{ padding: 20px 40px; margin-top: 50px; }
+.card{ padding: 20px 40px; margin-top: 50px; border-radius: 7px;}
 .date_label{ float:left; width:48px; height:80px; color: #fff; text-align: center; background: url("../img/date_label_small_bg.png")  left top no-repeat; margin-left: -70px; margin-top: 0; }
 .day_month{ font-size: 18px;} .year{ font-size: 12px;}
 @media (min-width:768px) and (max-width:979px){.date_label{ margin:-26px 50px 0 -30px;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;} .visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;}}
