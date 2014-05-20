@@ -8,11 +8,7 @@ tags : [python, django]
 {% include JB/setup %}
 # 收藏颜色的工具
 ---
-<<<<<<< HEAD
 ![collect_color](/assets/image/collect_color.jpg)
-=======
-![collect_color](./image/collect_color.jpg)
->>>>>>> dfd110426e52d4f434d761aedad7b8056829bb68
 
 
 用了三个小时完成了上图的功能，满足了我的需求。
