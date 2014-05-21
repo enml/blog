@@ -13,14 +13,13 @@ body{ background: url("img/body_bg.png") repeat;}
 /*page container -- card style -- */
 .nav-narrow{  
   margin: 0 auto;
-  max-width: 800px;}
+  max-width: 900px;}
 
 
 
 .card { 
-  max-width: 800px;
-  
-  background-color: #fff; 
+  max-width: 900px;
+  background: url("img/card_bg.jpg") #fff repeat center top; 
   }
 
 .container-narrow > hr { 
