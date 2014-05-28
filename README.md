@@ -1,4 +1,5 @@
 #jekylll blog
 
-###_site里面修改相关的css路劲。
-###_config.yml修改markdown。
+### 基于jekyll的blog
+### 使用bootstrap框架
+### font-awesome
