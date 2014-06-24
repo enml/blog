@@ -3,6 +3,7 @@
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 -->
+ 
 
 <div class="row-fluid post-full">
   <div class="span12 ">
@@ -18,8 +19,9 @@
       {{ content }}
     </div>
 
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline card">
+ 
+<!--{% unless page.categories == empty %}
+    <ul class="tag_box inline ">
       <li><i class="icon-folder-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
@@ -27,13 +29,12 @@
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <ul class="tag_box inline card">
+    <ul class="tag_box inline ">
       <li><i class="icon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-
+  {% endunless %}  -->
     
     <div class="pagination clearfix">
       <ul class = "pull-right">
