@@ -1,5 +1,7 @@
 body{ background: url("img/body_bg.png") repeat;}
-
+h1{
+    font-family: "楷体";
+}
 .fa.fa-arrow-circle-right{
     margin-right: 15px;
 }
@@ -23,7 +25,7 @@ body{ background: url("img/body_bg.png") repeat;}
 
 .card { 
   max-width: 900px;
-  background: url("img/card_bg.jpg") rgba(255,255,255,0.6) repeat center top; 
+  background:#fff; 
   }
 
 .container-narrow > hr { 
@@ -74,7 +76,7 @@ body{ background: url("img/body_bg.png") repeat;}
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
-  background: rgb(0,173,207);
+  background: rgb(222,106,115);
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -95,13 +97,17 @@ body{ background: url("img/body_bg.png") repeat;}
 
 
 .hat_title{
-/*    margin: -20px -40px 20px;*/
-    padding: 30px 0 20px 0;
+/*    margin: 50px 0 20px 0;*/
+    padding: 30px 0 40px 0;
 /*    background-color: rgb(229, 229, 229);*/
 /*    color: rgb(0,173,207);*/
     font-size: 58px;
     font-weight: 100;
+    font-family: "楷体";
 }
 .post_list{
     margin-left: 60px;
+}
+.page.card{
+    background:url("img/card_bg.jpg") repeat top center;
 }
