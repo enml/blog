@@ -1,6 +1,6 @@
 body{ background: url("img/body_bg.png") repeat;}
 h1{
-    font-family: "楷体";
+    font-family: Arial,"楷体";
 }
 .fa.fa-arrow-circle-right{
     margin-right: 15px;
